@@ -1,0 +1,46 @@
+<html>
+<head>
+    <style>
+        .body {
+            background: rgb(85,205,252);
+            background: linear-gradient(0deg, rgba(85,205,252,1) 0%, rgba(255,255,255,1) 50%, rgba(247,168,184,1) 100%);
+            text-align: center;
+        }
+
+        .button {
+            background-color: #2D2D2D;
+            border: none;
+            border-radius: 12px;
+            color: white;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        }</style>
+    <title>What's Your Gender Clicker</title>
+</head>
+<body class="body">
+<button class='button' onclick="clickyFunction()">"What's your gender?"</button>
+<h2 id="mainText"></h2>
+
+<script>
+
+
+    function clickyFunction() {
+        document.getElementById('mainText').innerHTML= randomEl(elementA);
+    }
+
+    function randomEl(list) {
+        var i = Math.floor(Math.random() * list.length);
+        return list[i];
+    }
+
+    var elementA = ["...", "No.", "I keep meaning to pick one up but then when you get to the store you always forget!", "I'm kinda doing a DIY thing, actually", "Oh shit was that due today?", "I heard it's better for the enviornment not to have one.", "Error 404: Gender not found.", "Actually I play for both teams.","Shit I left mine at home, do you have an extra?", "One eyed, one horned, flying purple people eater.", "I prefer JavaScript, actually, I find it more responsive.", "Linux", "Scorpio, but a Virgo moon.", "I must have misplaced it. Lose my head next!", "12 Ferrets in a trenchcoat.", "Gryffindor.", "Hufflepuff.", "Ravenclaw.", "Slytherin.", "I'm a hat stall, actually.", "Evil.", "I'm an accountant.", "Buttering me up is not going to get you off this murder charge, ma'am.", "NO SPOILERS! I haven't gotten to that chapter yet!", "I'm an experience.", "I'm a scientist. I didn't get this PhD not to be called Dr.", "Yes.", "Sure.", "I just woke up, gimmie a sec.", "Ten percent luck, twenty percent skill, fifteen percent concentrated power of will, five percent pleasure, fifty percent pain, and a hundred percent reason to remember the name.", "No thanks, I'm full.", "I'm the real Slim Shady.", "Was that in the DLC?", "I haven't unlocked that level yet.", "I'm Polish.", "Ah... um... no thanks.", "Pass.", "Chaos.", "Noncommital.", "You know that feeling you get when you accidentally step in something unexpectedly slimy?", "Good question!", "I actually gave a TEDtalk on that. Pretty advanced material.", "Advanced Trigonometry.", "Isn’t it obvious?", "Oh I don't have a plan yet, but October is MONTHS away!", "Why, do you think I should?", "You first.", "Ok, ok, we'll say it together! One... two... THREE!", "There are more things in heaven and Earth than are dreamt of in your philosophies.", "How did you get this number?", "NB - as in None of your Business.", "I think I missed that class.", "You know, I ask myself that every morning.", "It wasnt my day to check.", "A oppressive social construct. Throw off your shackles!", "Under Communism, it's OUR gender.", "Tired.", "Irrelevent.", "According to the chore chart, that's your problem.", "It's kind of a funny story...", "It's-", "I'm dead.", "Maybe", "Sometimes", "Uhh... oh wait... I swear I know this one! Tip of my tongue- Wait, wait, don't tell me!", "Can I phone a friend?", "Bees?", "Beezwax, None of yours", "You mean today?", "O-negative: universal donor, baby!", "Oh shit I knew I forgot something at home!", "Ahh how quaint! I forgot how obsessed with the binary you humans are!", "Sorry? I've never heard of that?" , "Gender? Can you use that in a sentence?", "Uh, what's the country of origin?", "I knew I should have listened to my parents when they told me to get my gender fluid changed regularly.", "Didn't Snopes debunk that one?", "Gender? I hardly how her!", "No, sorry, no solicitations.", "Why, you selling? My dealer's out of town.", "You lookin' to buy?", "Thank you for noticing! I'm really proud of it. I harvested it from the foothills of the Sierra Mountains in the dead of winter. Extremely rare species too, hard to find.", "I'm vegan.", "Thanks, it's a rescue! Adopt, don't shop!", "The gender chooses the wizard, Harry.", "I have an allergy, but thanks.", "What's that? My agenda? Well I was gonna' grab some coffee but then it's meetings all day. What's your agenda?", "I think it's a nutri-bullet, but I'm not looking to sell it.", "Oh this one is just a loaner, mines in the shop.", "What about my fender? Did you hit my car??", "Meh, this one is a hand-me-down, it's too big on me.", "Ok, ok, fine, but if we get a gender, I'm not gonna' be the one taking care of it. You have to walk it and feed it and clean up the poop.", "I think it's a poodle mix.", "Not sure, but we'd love to get one of those tests done to find out.", "G-gender? Wh-what's this gender you speak of? I would never rob a gender store... Haha - YOU'LL NEVER TAKE ME ALIVE, COPPERS!", "We don't do that here.", "Oh I don't have one yet!", "Could you give me an example?", "Is it multiple choice or write-in?", "There is no gender, only Zuul.", "Is gender the one you use for allergies or for swelling?", "Alto.", "Bass.", "Soprano.", "Tenor.", "Is that the one with the teeth?", "I'm actually not sure, lemme call my mom real quick and check.", "Left pizza, none beef.", "Sexy.", "Cherry coke.", "Small.", "Medium.", "Ya' know what, go 'head and supersize me.", "90s Taco bell seat pattern.", "Existential dread.", "Six feet, even.", "Dog ate it."];
+</script>
+</body>
+</html>
